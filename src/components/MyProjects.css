@@ -1,0 +1,31 @@
+/* Add this CSS in a separate file, e.g., styles.css */
+
+.add-button {
+    position: fixed;
+    bottom: 30px;
+    right: 30px;
+    padding: 10px 20px;
+    border: black;
+    border-radius: 20px;
+    box-shadow: 0 0 20px black; 
+    background-color: green; /* Change the color to your preference */
+    color: #fff; /* Change the text color to your preference */
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    transition: all 0.3s;
+    text-decoration: none;
+  }
+  
+  .add-button:hover {
+    box-shadow: 0 0 6px black; 
+    border: black;
+    background-color: rgb(1, 87, 1);
+  }
+
+  .na {
+    font-size: larger;
+    font-weight: 600;
+    color: rgb(5, 5, 112);
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+  }

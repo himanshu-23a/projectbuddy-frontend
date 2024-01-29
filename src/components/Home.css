@@ -1,0 +1,26 @@
+.home-container {
+    background-color: rgb(2, 2, 51);
+    color: whitesmoke;
+}
+.btn-get-started {
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    letter-spacing: 1px;
+    display: inline-block;
+    padding: 10px 28px 11px 28px;
+    border-radius: 50px;
+    transition: 0.5s;
+    margin: 10px 0 0 0;
+    color: rgb(2, 2, 51);
+    background: lightblue;
+    text-decoration: none;
+  }
+
+  .btn-get-started:hover {
+    font-family: "Jost", sans-serif;
+    font-weight: 600;
+    font-size: 16px;
+    color: rgb(2, 2, 51);
+    background: rgb(84, 188, 222);
+  }

@@ -1,0 +1,84 @@
+.discussion-card {
+    display: flex;
+    flex-direction: column;
+    background-color: rgb(2, 2, 51);
+    height: calc(100vh - 87px);
+    margin: 10px;
+    overflow-y: auto;
+    color: aliceblue;
+}
+
+.chat-area {
+    flex: 1;
+    overflow-y: auto;
+    padding: 10px;
+    margin: 10px;
+    margin-right: 0px;
+}
+
+.chat-area::-webkit-scrollbar {
+    width: 5px;
+}
+
+.chat-area::-webkit-scrollbar-thumb {
+    background-color: lightgray;
+    border-radius: 10px;
+
+}
+
+.textbox {
+    flex: 1;
+    overflow-y: hidden;
+    resize: none;
+}
+
+.btn-send {
+    height: fit-content;
+    margin-left: auto;
+}
+
+.form-style {
+    align-items: center;
+    padding: 10px;
+    margin-top: auto;
+}
+
+.date-separator {
+    background-color:lightgray;
+    color: black;
+}
+
+.chat-card {
+    background-color: lightblue;
+}
+.profile-item {
+    width: 30px;
+    height: 30px;
+    object-fit: cover;
+    border-radius: 50%;
+    border: 1px solid rgb(2, 2, 51);
+}
+
+.profile-name {
+    color: blue;
+    font-size: small;
+    font-weight: 700;
+}
+
+.message-box {
+    margin-left: 40px;
+    font-family:'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+}
+
+.time-chat {
+    font-size: smaller;
+}
+
+.start-discussion {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: larger;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    font-weight: 700;
+}

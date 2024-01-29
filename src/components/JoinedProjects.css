@@ -1,0 +1,31 @@
+.main-row {
+    height: calc(100vh - 70px);
+}
+
+.error-img {
+    width: 80px;
+    height: auto;
+}
+.project-list-col {
+    background-color: lightblue;
+    height: calc(100vh - 87px);
+    margin-top: 10px;
+    overflow-y: auto;
+    color: aliceblue;
+}
+
+.project-list-header {
+    background-color: blue;
+    border-radius: 5px;
+    padding: 10px;
+
+}
+
+.project-list-item {
+    font-weight: 600;
+}
+
+.project-list-item:hover {
+    background-color: green;
+    color: whitesmoke;
+}
