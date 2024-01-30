@@ -1,70 +1,54 @@
-# Getting Started with Create React App
+# ProjectBuddy - Full stack MERN 
+Project Buddy is your go-to platform for collaborative project management and networking. Seamlessly connecting individuals with shared interests and skills, Project Buddy empowers users to initiate, join, and manage projects effortlessly.
 
-This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
+## Development
+FrontEnd - React Js <br>
+Backend - Node js <br>
+Database - MongoDB <br>
 
-## Available Scripts
+## Key Features
 
-In the project directory, you can run:
+### User Management: 
+Create and manage your account with ease. Customize your profile with essential details such as skills, institute name, and repository links to showcase your expertise.
 
-### `npm start`
+### Project Creation: 
+Initiate projects by providing comprehensive details including project title, description, required skills, team size, duration, repository links, and website links.
 
-Runs the app in the development mode.\
-Open [http://localhost:3000](http://localhost:3000) to view it in your browser.
+### Project Discovery: 
+Explore a diverse range of projects uploaded by fellow users. Find projects that align with your interests and expertise.
 
-The page will reload when you make changes.\
-You may also see any lint errors in the console.
+### Collaborative Workspace: 
+Join projects that pique your interest and collaborate with team members in real-time. Engage in discussions, share ideas, and coordinate tasks efficiently within dedicated project discussion rooms.
 
-### `npm test`
+### Membership Management: 
+Project owners have the authority to accept or reject joining requests from other users. Manage project memberships effortlessly and ensure a cohesive team environment.
 
-Launches the test runner in the interactive watch mode.\
-See the section about [running tests](https://facebook.github.io/create-react-app/docs/running-tests) for more information.
+### Project Deletion: 
+Project owners can delete projects as needed, removing all associated members and discussions. Maintain project integrity and manage project lifecycles effectively.
 
-### `npm run build`
+### User Account Deletion: 
+Users have the option to delete their accounts, ensuring complete control over their data and project involvements.
 
-Builds the app for production to the `build` folder.\
-It correctly bundles React in production mode and optimizes the build for the best performance.
+Project Buddy streamlines the project management process, fostering collaboration, and innovation within a vibrant community of like-minded individuals. Whether you're a seasoned professional or an aspiring enthusiast, Project Buddy is your ultimate companion for project success.
 
-The build is minified and the filenames include the hashes.\
-Your app is ready to be deployed!
+## Screen shots
+### 1. Home
+![image](https://github.com/himanshu-23a/projectbuddy-frontend/assets/101521097/fedd8824-eff0-4597-a16e-fe351d98392b)
 
-See the section about [deployment](https://facebook.github.io/create-react-app/docs/deployment) for more information.
+### 2. User login and Signup
+![image](https://github.com/himanshu-23a/projectbuddy-frontend/assets/101521097/ef9983f3-21dd-4c9b-b3ac-c3a2f8a00ebe)
 
-### `npm run eject`
+### 3. My Projects
+![image](https://github.com/himanshu-23a/projectbuddy-frontend/assets/101521097/0ead57de-251f-4eb7-9559-19897623fe0d)
 
-**Note: this is a one-way operation. Once you `eject`, you can't go back!**
+### 4. Request to join projects
+![image](https://github.com/himanshu-23a/projectbuddy-frontend/assets/101521097/725424bc-7037-4660-9a0d-0ef51e5e7f9e)
 
-If you aren't satisfied with the build tool and configuration choices, you can `eject` at any time. This command will remove the single build dependency from your project.
+### 5. Accept or Reject Request
+![image](https://github.com/himanshu-23a/projectbuddy-frontend/assets/101521097/84f223a0-52e0-41e1-9ecc-ef2c58b80e96)
 
-Instead, it will copy all the configuration files and the transitive dependencies (webpack, Babel, ESLint, etc) right into your project so you have full control over them. All of the commands except `eject` will still work, but they will point to the copied scripts so you can tweak them. At this point you're on your own.
+### 6. Discussion Room
+![image](https://github.com/himanshu-23a/projectbuddy-frontend/assets/101521097/9df0a3e3-9190-460f-96af-1d1fbb8470c3)
 
-You don't have to ever use `eject`. The curated feature set is suitable for small and middle deployments, and you shouldn't feel obligated to use this feature. However we understand that this tool wouldn't be useful if you couldn't customize it when you are ready for it.
-
-## Learn More
-
-You can learn more in the [Create React App documentation](https://facebook.github.io/create-react-app/docs/getting-started).
-
-To learn React, check out the [React documentation](https://reactjs.org/).
-
-### Code Splitting
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/code-splitting](https://facebook.github.io/create-react-app/docs/code-splitting)
-
-### Analyzing the Bundle Size
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size](https://facebook.github.io/create-react-app/docs/analyzing-the-bundle-size)
-
-### Making a Progressive Web App
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app](https://facebook.github.io/create-react-app/docs/making-a-progressive-web-app)
-
-### Advanced Configuration
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/advanced-configuration](https://facebook.github.io/create-react-app/docs/advanced-configuration)
-
-### Deployment
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/deployment](https://facebook.github.io/create-react-app/docs/deployment)
-
-### `npm run build` fails to minify
-
-This section has moved here: [https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify](https://facebook.github.io/create-react-app/docs/troubleshooting#npm-run-build-fails-to-minify)
+### 7. Profile Card
+![image](https://github.com/himanshu-23a/projectbuddy-frontend/assets/101521097/ed0a941a-16ee-41a3-bfb6-3a6e2ae26c34)
