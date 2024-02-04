@@ -153,8 +153,8 @@ const EditProject = () => {
                         <label htmlFor="repository_link" className="form-label">Repository Link</label>
                         <input type="text" className="form-control" id="repository_link" value={projectInfo.repository_link} name='repository_link' onChange={onChange} />
                     </div>
-                    <button type="button" className="btn btn-success my-2" onClick={handleClick}>Update</button>
-                    <button type="button" className="btn btn-danger mx-2 my-2" onClick={() => { navigate("/MyProjects") }}>Close</button>
+                    <button type="button" className="btn btn-success my-3" onClick={handleClick}>Update</button>
+                    <button type="button" className="btn btn-danger mx-2 my-3" onClick={() => { navigate("/MyProjects") }}>Close</button>
                 </form>
             </div>
         </>

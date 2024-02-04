@@ -4,3 +4,9 @@
     object-fit: cover;
     border-radius: 50%;
 }
+@media only screen and (max-width: 960px) {
+    .profile {
+        width: 50px; 
+        height: 50px;
+    }
+}

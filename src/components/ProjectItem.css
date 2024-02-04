@@ -41,3 +41,14 @@
     cursor: pointer;
     transition: background-color 0.3s ease;
 }
+
+@media screen and (max-width: 768px) {
+    .card-body {
+        flex-direction: column; 
+    }
+
+    .card-content {
+        margin-right: 0;
+        margin-bottom: 20px;
+    }
+}

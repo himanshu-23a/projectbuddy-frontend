@@ -21,3 +21,26 @@
     font-size: 18px;
     color: navy;
 }
+
+@media screen and (max-width: 768px) {
+    .card-profile {
+        padding: 5px;
+    }
+
+    .username {
+        font-size: medium; 
+    }
+
+    .name {
+        font-size: medium;
+    }
+
+    .text-white {
+        font-size: small;
+    }
+
+    .email-text {
+        font-size: 14px; 
+        
+    }
+}

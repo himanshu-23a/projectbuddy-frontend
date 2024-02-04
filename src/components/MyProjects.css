@@ -29,3 +29,18 @@
     color: rgb(5, 5, 112);
     font-family:Verdana, Geneva, Tahoma, sans-serif;
   }
+
+  @media screen and (max-width: 995.20px) {
+    .container {
+        padding: 10px; 
+    }
+  
+    .col-lg-6 {
+        width: 100%; 
+  
+    .add-button {
+        font-size: 14px;
+    }
+  }
+  }
+  

@@ -127,7 +127,7 @@ const AddProject = (props) => {
                     <label htmlFor="repository_link" className="form-label">Repository Link</label>
                     <input type="text" className="form-control" id="repository_link" value={project.repository_link} name='repository_link' onChange={onChange} />
                 </div>
-                <button type="submit" className="btn btn-success my-2" onClick={handleClick}>Create Project</button>
+                <button type="submit" className="btn btn-success my-3" onClick={handleClick}>Create Project</button>
             </form>
         </div>
     )

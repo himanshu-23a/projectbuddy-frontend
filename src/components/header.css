@@ -5,3 +5,8 @@
     text-align: center;
     color: whitesmoke;
 }
+@media only screen and (max-width: 960px) {
+    .header {
+        padding: 4px; 
+    }
+}

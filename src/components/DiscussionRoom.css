@@ -82,3 +82,48 @@
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     font-weight: 700;
 }
+
+
+@media screen and (max-width: 995.20px) {
+    .discussion-card {
+        width: 90%; 
+        margin: 0 auto; 
+    }
+
+    .chat-area {
+        max-height: 300px; 
+        overflow-y: auto; 
+    }
+
+    .message-box {
+        max-width: 70%; 
+    }
+
+    .profile-item {
+        width: 30px; 
+        height: 30px;
+        object-fit: cover; 
+        border-radius: 50%; 
+        margin-right: 5px; 
+    }
+
+    .profile-name {
+        font-size: 12px;
+    }
+
+    .date-separator {
+        font-size: 14px;
+    }
+
+    .start-discussion {
+        text-align: center; 
+    }
+
+    .textbox {
+        width: 80%;
+    }
+
+    .btn-send {
+        flex-shrink: 0; 
+    }
+}

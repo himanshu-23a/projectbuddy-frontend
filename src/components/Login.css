@@ -18,3 +18,29 @@
     justify-content: center;
     padding-bottom: 10px;
 }
+
+@media screen and (max-width: 995.20px) {
+    .login-container {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        height: 100vh; 
+        margin: 0;
+    }
+
+    .card-login {
+        width: 80%; 
+    }
+    
+    .login-header {
+        font-size: 24px; 
+    }
+
+    .form-control {
+        font-size: 14px; 
+    }
+
+    .btn-primary {
+        font-size: 16px; 
+    }
+}

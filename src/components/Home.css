@@ -24,3 +24,29 @@
     color: rgb(2, 2, 51);
     background: rgb(84, 188, 222);
   }
+
+  @media screen and (max-width: 995.20px) {
+    .home-container {
+        padding: 20px; 
+    }
+  
+    h2 {
+        font-size: 24px; 
+    }
+  
+    h4 {
+        font-size: 16px; 
+    }
+  
+    .btn-get-started {
+        font-size: 14px; 
+  
+    .col-lg-6 {
+        order: 2; 
+    }
+  
+    .col-lg-6.order-1.order-lg-2 {
+        order: 1; 
+    }
+  }
+  }
