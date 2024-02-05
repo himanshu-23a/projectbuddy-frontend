@@ -1,6 +1,7 @@
 import React, { useState } from 'react'
 import { Link, useNavigate } from 'react-router-dom'
 import './Login.css'
+import host from "../host"
 
 const Signup = (props) => {
     const [credential, setcredential] = useState({ username: "", email: "", password: "", cpassword: "" });
@@ -16,7 +17,7 @@ const Signup = (props) => {
         else {
             //API Call
             try {
-                const response = await fetch(`http://localhost:5000/api/auth/createuser`, {
+                const response = await fetch(`${host}/api/auth/createuser`, {
                     method: 'POST',
                     headers: {
                         'Content-type': 'application/json',

@@ -1,7 +1,8 @@
 // socket.js
 import { io } from 'socket.io-client';
+import host from "../host"
 
-const socket = io('http://localhost:5000', {
+const socket = io(`${host}`, {
   query: {
     token: localStorage.getItem('token'), // Include the user's token in the query
   },

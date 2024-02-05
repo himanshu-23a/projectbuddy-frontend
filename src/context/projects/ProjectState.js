@@ -1,8 +1,9 @@
 import React, { useState } from "react";
 import ProjectContext from "./ProjectContext";
+import host from "../../host";
 
 const ProjectState = (props) => {
-    const host = process.env.REACT_APP_HOST || "http://localhost:5000"
+    //const host = process.env.REACT_APP_HOST || "http://localhost:5000"
     const projectInitial = []
 
     const [projects, setProjects] = useState(projectInitial)

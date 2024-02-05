@@ -5,6 +5,7 @@ import UserContext from '../context/User/UserContext';
 import './DiscussionRoom.css'
 import profile from '../image/profile.jpg'
 import error_discussion from '../image/404-error.png'
+import host from "../host";
 
 
 const DiscussionRoom = ({ projectId }) => {
@@ -13,12 +14,11 @@ const DiscussionRoom = ({ projectId }) => {
   const userContext = useContext(UserContext);
   const { user } = userContext;
   const chatAreaRef = useRef(null); // Add a ref for the chat area
-
-
+  
   // Function to fetch discussions for a specific project
   const fetchDiscussions = async () => {
     try {
-      const response = await fetch(`http://localhost:5000/api/discussions/getdiscussions/${projectId}`, {
+      const response = await fetch(`${host}/api/discussions/getdiscussions/${projectId}`, {
         method: 'GET',
         headers: {
           'Content-Type': 'application/json',
@@ -69,7 +69,7 @@ const DiscussionRoom = ({ projectId }) => {
   const onSubmit = async (data) => {
     try {
       // Add a new discussion to a specific project
-      const response = await fetch(`http://localhost:5000/api/discussions/adddiscussion/${projectId}`, {
+      const response = await fetch(`${host}/api/discussions/adddiscussion/${projectId}`, {
         method: 'POST',
         headers: {
           'Content-Type': 'application/json',
